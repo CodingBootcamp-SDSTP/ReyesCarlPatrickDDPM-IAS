@@ -1,0 +1,34 @@
+Project Title: DDPM InfoSystems Analytics Services Web Application
+
+This app will help students and professionals avail the products and services of the firm.
+
+Services:
+	* Thesis Consultation
+	* Design and Analysis of Experiments
+	* Design and Analysis of Surveys
+		- small-scale to large-scale
+	* Analytics Trainings
+		- Regular Trainings for the public
+		- Customized Analytics Trainings for Industry
+
+WEB
+	Home Page
+		Displays activities, training schedules and client reviews
+		Include sign-up
+			- Clients
+			- Consultants/Experts
+	About Us
+		Advocacy (Mission/Vision)
+		Consultants/Experts
+		Partners
+			- Companies
+			- Universities and Colleges
+			- Government Agencies
+	Services
+	Training Courses
+		Training Calendar
+		Training Registration
+		Payment Procedures
+	Contact Us
+
+This app will make use of databases for the users. Additional features: chat box, can upload/download training modules, datasets.
