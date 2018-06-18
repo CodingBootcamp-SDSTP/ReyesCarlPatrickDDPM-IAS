@@ -32,3 +32,55 @@ WEB
 	Contact Us
 
 This app will make use of databases for the users. Additional features: chat box, can upload/download training modules, datasets.
+
+/*
+Client Registration
+	Fullname
+	Contact Number
+	Location
+	Background (Business, Government, Academe, Research, others)
+	Status (Student, Work, Self-employed)
+	Mode of Payment (Cash, Bank deposit, Paypal)
+	When will you settle your payment?
+	What course/s to avail?
+	Why do you want to attend?
+*/
+
+CLIENT TABLE FIELDS:
+	client_id		Client ID
+	name			Fullname
+	date_reg		Registration Date
+	client_type		Client Classification (Individual, Company/Institution Name)
+	service			Service Sought
+		ddpms1			Thesis Consultation
+		ddpms2			Design and Analysis of Experiments
+		ddpms3			Design and Analysis of Surveys
+		ddpms4			Analytics Training
+		ddpms5			Statistical Database Construction
+	contact_no		Contact Numbers
+	email			Email Address
+	title			Title of Study/Project/Training
+	general_obj		General Objective
+	specific_obj	If necessary, provide other details related
+	date_target		Target date of service delivery (dd/mm/yyyy)
+
+	TO BE FILLED-OUT BY DDPM-IAS:
+		client_id			Client No.
+		service				Service Needed
+		down_payment			Down payment
+		date_payment			Date of payment
+		date_received		Date Received
+		partial_payment			Partial payment
+		date_payment			Date of payment
+		date_completed		Date Completed
+		full_payment			Full payment
+		date_completed			Date of payment
+
+ADDITIONAL FIELDS:
+	location		Address
+	background		Background (Business, Government, Academe, Research, others)
+	status			Status (Student, Work, Self-employed)
+	payment_mode	Mode of Payment (Cash, Bank deposit, Paypal)
+	payment_when	When will you settle your payment?
+	course_avail	What course/s to avail?
+	why_attend		Why do you want to attend?
