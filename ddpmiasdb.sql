@@ -35,6 +35,8 @@ CREATE TABLE consultants (
 	address VARCHAR (255) NOT NULL,
 	pf_amount DECIMAL (10, 2) NOT NULL,
 	service_offered VARCHAR (255) NOT NULL,
+	educ_attainment VARCHAR (255) NOT NULL,
+	expertise VARCHAR (255) NOT NULL,
 	PRIMARY KEY (consultant_id)
 );
 
@@ -54,10 +56,11 @@ CREATE TABLE scheduler (
 	FOREIGN KEY (consultant_id) REFERENCES consultants (consultant_id)
 );
 
-DROP TABLE IF EXISTS income;
-CREATE TABLE income (
+DROP TABLE IF EXISTS clientPayment;
+CREATE TABLE clientPayment (
 	income_trans_id INTEGER (10) AUTO_INCREMENT,
 	client_id INTEGER (10) NOT NULL,
+	client_number VARCHAR (255) NOT NULL,
 	or_number INTEGER (10),
 	date_payment DATE NOT NULL,
 	location VARCHAR (255),
@@ -69,7 +72,6 @@ CREATE TABLE income (
 );
 
 -- INSERT INTO scheduler (   )
-
 
 -- INSERT INTO consultants ( date, con_name, tin_number, email, contact_number, office, service_offered, pf_amount ) VALUES
 

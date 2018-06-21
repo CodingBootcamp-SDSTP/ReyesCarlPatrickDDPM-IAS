@@ -1,4 +1,4 @@
-public class ClientDetails
+public class Client
 {
 	public static class Builder {
 		String clientName;
@@ -104,8 +104,8 @@ public class ClientDetails
 			return(this);
 		}
 
-		public ClientDetails build() {
-			return(new ClientDetails(this));
+		public Client build() {
+			return(new Client(this));
 		}
 
 		// getters
@@ -196,7 +196,7 @@ public class ClientDetails
 	final String COURSEAVAIL;
 	final String WHYATTEND;
 
-	public ClientDetails(Builder builder) {
+	public Client(Builder builder) {
 		CLIENTNAME = builder.getClientName();
 		DATEREG = builder.getDateReg();
 		CLIENTTYPE = builder.getClientType();
